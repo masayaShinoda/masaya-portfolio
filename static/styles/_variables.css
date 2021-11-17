@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+    --head: 'Crimson Text', 'Georgia', serif;
+    --body: 'PT Serif', 'Times New Roman', serif;
+    
+    --prussian_blue: #003153;
+    /* --venice_blue: #004F86; */
+    --azure_blue: #008BEC;
+    --azure_white: #F0FFFF;
+    --ivory: #FFFFF0;
+
+}

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+h1, h2 {
+  font-family: "Crimson Text", serif;
+}
+
+div, span, p, a, ul, ol, small, q, blockquote {
+  font-family: "PT Serif", serif;
+}
+
+body {
+  background: var(--ivory);
+}
+
+h1 {font-size: 3.6rem; line-height: 1.1; margin-bottom: 1.5rem;}
+h2 {font-size: 2.4rem; line-height: 1.24; margin: 1.25rem 0;}
+div, span, p, a, ul, ol, q, blockquote {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+h1, h2 {max-width: 45ch;}
+span, p, a, ul, ol, q, blockquote {
+  max-width: 60ch;
+  margin: 1.8rem 0;
+}
+li, a {
+  overflow-wrap: break-word;
+  text-overflow: hidden;
+
+}
+@media(max-width: 767px) {
+  h1 {font-size: 3.2rem}
+  h2 {font-size: 2rem}
+  div, span, p, a, ul, ol, q, blockquote {
+    font-size: 1.6rem;
+  }
+}
+@media(max-width: 767px) {
+  span, p, a, ul, ol, q, blockquote {
+    max-width: 100%;
+  }
+}
+ul {padding: 0}
+blockquote {font-style: italic;}
+/* img { box-shadow: 12px 12px 0 rgba(0,0,0,.5)} */
+
+
+/* 
+notes
+
+prussian blue: 003153
+azure blue: 008BEC
+azure white: F0FFFF
+
+font nav: metropolis medium
+hero text: metropolis medium
+fonts button: metropolis semibold
+headings: metropolis semibold
+content text: work sans regular
+
+*/
