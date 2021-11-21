@@ -1,0 +1,36 @@
+$head: Metropolis-SemiBold, sans-serif;
+$body: work-sans-regular, sans-serif;
+
+$prussian_blue: #003153;
+$azure_blue: #008BEC;
+$azure_white: #F0FFFF;
+$ivory: #FFFFF0;
+
+@font-face {font-family: Metropolis-Regular; src: url(/fonts/Metropolis-Regular.otf)}
+@font-face {font-family: Metropolis-Medium; src: url(/fonts/Metropolis-Medium.otf)}
+@font-face {font-family: Metropolis-SemiBold; src: url(/fonts/Metropolis-SemiBold.otf)}
+@font-face {font-family: work-sans-regular; src: url(/fonts/work-sans-regular.otf)}
+@font-face {font-family: KhmerOSContent-Regular; src: url(/fonts/KhmerOSContent-Regular.ttf)}
+@font-face {font-family: KhmerOSContent-Bold; src: url(/fonts/KhmerOSContent-Bold.ttf)}
+
+/* 
+font nav: metropolis medium
+hero text: metropolis medium
+fonts button: metropolis semibold
+headings: metropolis semibold
+content text: work sans regular 
+*/
+
+// Breakpoints
+$bp-small: 48em; // 768px
+$bp-medium: 64em; // 1024px
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+// Media Queries
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";

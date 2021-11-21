@@ -1,0 +1,70 @@
+@import './_variables.scss';
+
+html {
+  font-size: 62.5%;
+}
+
+:lang(khm) 	{
+  font-family: KhmerOSContent-Bold, sans-serif;
+  font-size: 95%;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: $head, serif;
+}
+
+div, span, p, a, ul, ol, small, q, blockquote {
+  font-family: $body, serif;
+}
+
+body {
+
+}
+
+h1 {font-size: 3.6rem; line-height: 1.1; margin-bottom: 1.5rem;}
+h2 {font-size: 2.4rem; line-height: 1.24; margin: 1.25rem 0;}
+div, span, p, a, ul, ol, q, blockquote {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+h1, h2 {max-width: 45ch;}
+span, p, a, ul, ol, q, blockquote {
+  max-width: 60ch;
+  margin: 1.8rem 0;
+}
+li, a {
+  overflow-wrap: break-word;
+  text-overflow: hidden;
+}
+
+// @media #{$mq-small} {
+
+// }
+@media #{$mq-medium} {
+    h1 {font-size: 3.2rem}
+    h2 {font-size: 2rem}
+    div, span, p, a, ul, ol, q, blockquote {
+      font-size: 1.6rem;
+    }
+    span, p, a, ul, ol, q, blockquote {
+      max-width: 100%;
+    }        
+}
+
+@media #{$mq-large} {
+    
+}
+
+@media #{$mq-xlarge} {
+    
+}
+
+@media #{$mq-xxlarge} {
+    
+}
+
+
+ul {padding: 0}
+blockquote {font-style: italic;}
+/* img { box-shadow: 12px 12px 0 rgba(0,0,0,.5)} */

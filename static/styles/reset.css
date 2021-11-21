@@ -3,6 +3,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  border: 0;
+  margin: 0;
 }
 
 /* Remove default margin */

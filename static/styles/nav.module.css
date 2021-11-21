@@ -1,0 +1,87 @@
+@font-face {
+  font-family: Metropolis-Regular;
+  src: url(/fonts/Metropolis-Regular.otf);
+}
+
+@font-face {
+  font-family: Metropolis-Medium;
+  src: url(/fonts/Metropolis-Medium.otf);
+}
+
+@font-face {
+  font-family: Metropolis-SemiBold;
+  src: url(/fonts/Metropolis-SemiBold.otf);
+}
+
+@font-face {
+  font-family: work-sans-regular;
+  src: url(/fonts/work-sans-regular.otf);
+}
+
+@font-face {
+  font-family: KhmerOSContent-Regular;
+  src: url(/fonts/KhmerOSContent-Regular.ttf);
+}
+
+@font-face {
+  font-family: KhmerOSContent-Bold;
+  src: url(/fonts/KhmerOSContent-Bold.ttf);
+}
+
+/* 
+font nav: metropolis medium
+hero text: metropolis medium
+fonts button: metropolis semibold
+headings: metropolis semibold
+content text: work sans regular 
+*/
+.navContainer {
+  margin: 0 auto;
+  min-height: 100px;
+}
+
+@media (min-width: 48em) {
+  .navContainer {
+    border: 1px solid  red;
+  }
+}
+
+@media (min-width: 64em) {
+  .navContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    border: 1px solid  green;
+  }
+}
+
+@media (min-width: 85.375em) {
+  .navContainer {
+    border: 1px solid  blue;
+    max-width: 1280px;
+  }
+}
+
+.navContainer a {
+  font-size: 2.1rem;
+  font-family: Metropolis-Medium, sans-serif;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+  margin: 0 1.25rem;
+}
+
+.navContainer a:lang(khm) {
+  font-family: KhmerOSContent-Regular, sans-serif;
+}
+
+.navContainer img {
+  width: 28rem;
+}
+/*# sourceMappingURL=nav.module.css.map */

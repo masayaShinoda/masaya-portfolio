@@ -1,0 +1,34 @@
+@import './_variables.scss';
+
+.navContainer {
+    margin: 0 auto;
+    min-height: 100px;
+
+    @media #{$mq-small} {
+        border: 1px solid  red; //debug
+    }
+    @media #{$mq-medium} {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        border: 1px solid  green; //debug
+    }
+    @media #{$mq-large} {        
+        border: 1px solid  blue; //debug
+        max-width: 1280px;
+        
+    }
+    
+    a {
+        font-size: 2.1rem;
+        font-family: Metropolis-Medium, sans-serif;
+        font-weight: 500;
+        line-height: 1;
+        text-decoration: none;
+        margin: 0 1.25rem;
+    }
+    a:lang(khm) {font-family: KhmerOSContent-Regular, sans-serif;}
+    img { // logo
+        width: 28rem;
+    }
+}
