@@ -5,16 +5,23 @@
             document.getElementsByTagName("body")[0].style.height = "auto"
             document.getElementsByTagName("body")[0].style.overflowY = "initial"            
         } else {
+            
             document.getElementsByTagName("body")[0].style.height = "100%"
             document.getElementsByTagName("body")[0].style.overflowY = "hidden" //disable mobile scroll
+            // scroll to top to prevent tearing
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
         mobileNavOpened = !mobileNavOpened
         document.getElementById("nav").classList.toggle("active")        
         handleMobileNavBtn()
+
+
     }
     function handleMobileNavBtn() {
         document.getElementById("mobileNavBtn").classList.toggle("close")
     }
+
 </script>
 
 <div class="navContainer">
