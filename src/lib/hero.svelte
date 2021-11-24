@@ -5,7 +5,7 @@
 # Cambodia-based Web Developer
 Hello! My name is Masaya and I help businesses and ideas achieve a quality online presence.
 
-[See my projects](#projects)
+[See my projects](https://github.com/masayaShinoda)
 `
 </script>
 
