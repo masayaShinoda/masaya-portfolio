@@ -65,7 +65,6 @@ content text: work sans regular
 @media (min-width: 120em) {
   main {
     max-width: 1440px;
-    outline: 1px solid orange;
   }
 }
 /*# sourceMappingURL=layout.module.css.map */

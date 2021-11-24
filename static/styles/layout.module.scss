@@ -20,6 +20,6 @@ main {
     }
     @media #{$mq-xlarge} {
         max-width: 1440px;
-        outline: 1px solid orange; //debug
+        // outline: 1px solid orange; //debug
     }
 }
