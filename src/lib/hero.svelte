@@ -19,7 +19,7 @@ Hello! My name is Masaya and I help businesses and ideas achieve a quality onlin
     <h2>Skillset</h2>
     <div>
         <img 
-            src="/images/svg/technologies-list.svg" 
+            src="/images/SVG/technologies-list.svg" 
             alt="Familiar technologies icons"
         />
     </div>
