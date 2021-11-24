@@ -1,0 +1,112 @@
+@import './_variables.scss';
+
+.hero {
+    display: flex; align-items: flex-start;
+    width: 100%;
+
+    span {
+        a {
+            //hero btn
+            background: $prussian_blue; color: #fff;
+            text-decoration: none; line-height: 1;
+            font-size: 2.1rem; font-weight: 600;
+            padding: 1.5rem 2rem;
+            padding-right: 3rem;
+            transition: .2s ease-in;
+            border-radius: 0 0 5rem 0;        
+        }
+        a:hover {background: $azure_blue; border-radius: 0}
+        a:active {transform: scale(.8)}
+    }
+
+    @media #{$mq-xsmall} {
+        flex-direction: column;
+        span {
+            // padding: 5% 0;
+            display: flex; flex-direction: column;
+            align-items: center;
+            text-align: center;
+            max-width: 100%;
+            // p {max-width: 80%;}
+        }
+        span { 
+            a {
+            //mobile call to action
+            display: flex;
+            justify-content: center;
+            border-radius: 0;
+            width: 100%;
+            margin-top: -1rem;
+            }
+        }
+        img {max-width: 90%;}
+    }
+    
+    @media #{$mq-small} {
+        // height: 480px;
+        padding: 10% 0;
+        align-items: center;
+        justify-content: space-between;
+        // outline: 1px solid red; //debug
+        span {
+            //hero text
+            max-width: 50%;
+            h1 {
+                font-size: 3.2rem; margin-bottom: 2.5rem;
+                max-width: 30ch;
+            }
+            p {max-width: 40ch; margin-bottom: 3.5rem;}
+        }
+        img {
+            max-width: 40%; 
+            // outline: 1px solid green;
+        }
+    }
+    @media #{$mq-medium} {
+        span {
+            h1 {font-size: 3.8rem}
+        }
+    } 
+    @media #{$mq-xlarge} {
+        span {
+            h1 {font-size: 4.2rem}
+            a {font-size: 2.4rem}
+        }
+    }
+}
+
+.skillset {
+    display: flex; flex-direction: column; align-items: center;
+    padding: 5% 0;
+    // outline: 1px solid blue; //debug
+    
+    @media #{$mq-xsmall} {
+        padding: 20% 0;
+        div {
+            display: flex;
+            width: 100%;
+            overflow-x: scroll;
+            padding: 2.5rem 0;
+            // width: auto;            
+            // white-space: nowrap;
+            // outline: 1px solid red; //debug
+            img {
+                // margin-top: 20%;
+                display: inline-block;
+                flex: none;
+                width: 150%;
+                max-width: 150%;
+                // max-width: 100%;
+            }
+        }
+    }
+    
+    @media #{$mq-small} {
+        div {
+            display: flex; width: 100%; justify-content: center; height: auto; 
+            // outline: 1px solid teal;
+        }
+        img {width: 65%; max-width: 65%; margin: 1.5rem 0; height: 100%}
+    }
+    
+}

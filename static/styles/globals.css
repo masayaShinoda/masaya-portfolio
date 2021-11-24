@@ -41,7 +41,7 @@ html {
 
 :lang(khm) {
   font-family: KhmerOSContent-Bold, sans-serif;
-  font-size: 95%;
+  font-size: 90%;
   line-height: 1.6;
 }
 
@@ -84,15 +84,45 @@ li, a {
   text-overflow: hidden;
 }
 
+@media (max-width: 40em) {
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  div, span, p, a, ul, ol, q, blockquote {
+    font-size: 1.6rem;
+  }
+  span, p, a, ul, ol, q, blockquote {
+    max-width: 100%;
+  }
+}
+
 @media (min-width: 64em) {
   h1 {
     font-size: 3.2rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 2.8rem;
   }
   div, span, p, a, ul, ol, q, blockquote {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+  }
+  span, p, a, ul, ol, q, blockquote {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 120em) {
+  h1 {
+    font-size: 4.2rem;
+  }
+  h2 {
+    font-size: 3.6rem;
+  }
+  div, span, p, a, ul, ol, q, blockquote {
+    font-size: 2.4rem;
   }
   span, p, a, ul, ol, q, blockquote {
     max-width: 100%;

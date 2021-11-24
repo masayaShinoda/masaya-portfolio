@@ -1,0 +1,25 @@
+@import './_variables.scss';
+
+main {
+    @media #{$mq-xsmall} {
+        max-width: 92%;
+        padding: 10% 2.5%;
+        // border: 1px solid red; //debug
+    }
+    @media #{$mq-small} {
+    max-width: 90vw;
+        // border: 1px solid green; //debug
+    }
+    @media #{$mq-medium} {
+        max-width: 1024px; max-width: 80vw;
+        // border: 1px solid blue; //debug
+    }
+    @media #{$mq-large} {        
+        max-width: 1280px; max-width: 80vw;
+        // outline: 1px solid purple; //debug
+    }
+    @media #{$mq-xlarge} {
+        max-width: 1440px;
+        outline: 1px solid orange; //debug
+    }
+}

@@ -1,7 +1,7 @@
 <script>
-    import SeoHead from '$lib/head.svelte';
+    import SeoHead from '$lib/head.svelte'
+    import Hero from '$lib/hero.svelte'
 </script>
 
 <SeoHead pageTitle="Home" />
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the <i>documentation</i></p>
+<Hero />

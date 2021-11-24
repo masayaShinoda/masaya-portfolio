@@ -6,9 +6,10 @@ html {
 
 :lang(khm) 	{
   font-family: KhmerOSContent-Bold, sans-serif;
-  font-size: 95%;
+  font-size: 90%;
   line-height: 1.6;
 }
+
 
 h1, h2 {
   font-family: $head, serif;
@@ -16,10 +17,6 @@ h1, h2 {
 
 div, span, p, a, ul, ol, small, q, blockquote {
   font-family: $body, serif;
-}
-
-body {
-
 }
 
 h1 {font-size: 3.6rem; line-height: 1.1; margin-bottom: 1.5rem;}
@@ -41,11 +38,21 @@ li, a {
 // @media #{$mq-small} {
 
 // }
-@media #{$mq-medium} {
-    h1 {font-size: 3.2rem}
-    h2 {font-size: 2rem}
+@media #{$mq-xsmall} {
+    h1 {font-size: 2.8rem}
+    h2 {font-size: 2.4rem}
     div, span, p, a, ul, ol, q, blockquote {
       font-size: 1.6rem;
+    }
+    span, p, a, ul, ol, q, blockquote {
+      max-width: 100%;
+    }        
+}
+@media #{$mq-medium} {
+    h1 {font-size: 3.2rem}
+    h2 {font-size: 2.8rem}
+    div, span, p, a, ul, ol, q, blockquote {
+      font-size: 1.8rem;
     }
     span, p, a, ul, ol, q, blockquote {
       max-width: 100%;
@@ -57,7 +64,14 @@ li, a {
 }
 
 @media #{$mq-xlarge} {
-    
+  h1 {font-size: 4.2rem}
+  h2 {font-size: 3.6rem}
+  div, span, p, a, ul, ol, q, blockquote {
+    font-size: 2.4rem;
+  }
+  span, p, a, ul, ol, q, blockquote {
+    max-width: 100%;
+  }       
 }
 
 @media #{$mq-xxlarge} {

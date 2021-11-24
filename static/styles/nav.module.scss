@@ -2,33 +2,128 @@
 
 .navContainer {
     margin: 0 auto;
-    min-height: 100px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    @media #{$mq-xsmall} {
+        justify-content: center; align-items: flex-end;
+        min-height: 22.5rem;
+        max-width: 100%; padding: 0 5%;
+        // border: 1px solid purple; //debug
+        .mobileNavBtn {
+            background: $azure_blue; width: 7.5rem; height: 7.5rem;
+            position: fixed; top: 5rem; left: 5vw; border-radius: 100%;
+            display: flex; flex-direction: column; align-items: center; justify-content: center;
+            box-shadow: 2px 2px 4px rgba(0,0,0,.25);
+            cursor: pointer;
+            z-index: 100;
+            span {
+                display: flex;
+                width: 4rem; height: .5rem; 
+                border-radius: 0 .5rem 0 0;
+                background: $azure_white;
+                margin: .45rem 0; padding: 0;
+            }
+        }
+        .mobileNavBtn.close {
+            -webkit-animation:appear 0.2s ease 0s 1 normal;
+            -moz-animation:appear 0.2s ease 0s 1 normal;
+            -ms-animation:appear 0.2s ease 0s 1 normal;
+            animation:appear 0.2s ease 0s 1 normal;
+            span {margin: 0; position: fixed; border-radius: 0;}
+            span:first-of-type {transform: rotate(45deg); padding-top: .45rem}
+            span:last-of-type {transform: rotate(-45deg); padding-bottom: .45rem}
+            span:nth-of-type(2) {display: none}
+        }
+        .mobileNavBtn:active {transform: scale(.8)}
+        nav {
+            //mobile nav
+            // display: flex;
+            display: none; flex-direction: column; justify-content: center;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0; right: 0;
+            width: 100%;
+            height: 100%;
+            max-height: 100%;
+            z-index: 50;
+            background: #fff;
+            ul {
+                display: flex; flex-direction: column; align-items: center;
+                width: 100%; max-width: 100%;
+                #home_link {order: -3}
+                li {width: 100%;}
+                li a {display: flex; justify-content: center; font-size: 3.2rem; width: 100%; padding: 3.5rem 0; transition: none;}
+                li:hover a {background: $azure_blue; color: $azure_white;}
+            }
+        }
+        nav.active {display: flex;}
+        .mainLogo {display: none}
+        img { //logo mobile screen
+            width: 15rem;
+            padding: 0;
+            // margin-left: 12rem;
+            // border: 1px solid teal;
+        }
+    }
     @media #{$mq-small} {
-        border: 1px solid  red; //debug
-    }
-    @media #{$mq-medium} {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        border: 1px solid  green; //debug
-    }
-    @media #{$mq-large} {        
-        border: 1px solid  blue; //debug
-        max-width: 1280px;
-        
+        // border: 1px solid red; //debug
+        max-width: 720px; max-width: 80vw;
+        min-height: 100px;
+        .mobileNavBtn {display: none}
+        a {font-size: 1.8rem;}
+        .mobileLogo {display: none}
+        img { //logo small screen
+            width: 20rem;
+        }
+        nav {display: flex}
+        #home_link {display: none; margin: 0}
+        li:first-of-type, li:last-of-type {margin: 0}
+        li {margin: 0 2.5rem;}
+        a:hover, a.active {color: $azure_blue;}
     }
     
+    @media #{$mq-medium} {
+        max-width: 1024px; max-width: 80vw;
+        // border: 1px solid green; //debug
+        a {font-size: 2.1rem;}
+        img { // logo
+            width: 24rem;
+        }
+        li {margin: 0 3.5rem;}
+    }
+    @media #{$mq-large} {        
+        padding-top: 5vh;
+        max-width: 1280px; max-width: 80vw;
+        // border: 1px solid blue; //debug
+    }
+    @media #{$mq-xlarge} {
+        // border: 1px solid yellow; //debug
+        max-width: 1440px;
+    }
+    li:last-of-type {margin: 0;}
     a {
-        font-size: 2.1rem;
         font-family: Metropolis-Medium, sans-serif;
         font-weight: 500;
         line-height: 1;
         text-decoration: none;
-        margin: 0 1.25rem;
+        color: $prussian_blue;
+        transition: color .2s ease-in;
+        margin: 0;
     }
     a:lang(khm) {font-family: KhmerOSContent-Regular, sans-serif;}
-    img { // logo
-        width: 28rem;
-    }
+
+    
 }
+
+    
+@-webkit-keyframes appear {
+    0%{ opacity: 0; -webkit-transform: scale3d(0.3, 0.3, 0.3); transform: scale3d(0.3, 0.3, 0.3); }
+    60%{ opacity: 1; -webkit-transform: scale3d(1,1,1); transform: scale3d(1,1,1); }
+}
+@keyframes appear {
+    0%{ opacity: 0; transform: scale3d(0.3, 0.3, 0.3); }
+    60%{ opacity: 1; transform: scale3d(1,1,1); }
+}
+    

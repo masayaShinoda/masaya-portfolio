@@ -37,51 +37,275 @@ content text: work sans regular
 */
 .navContainer {
   margin: 0 auto;
-  min-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media (max-width: 40em) {
+  .navContainer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    min-height: 22.5rem;
+    max-width: 100%;
+    padding: 0 5%;
+  }
+  .navContainer .mobileNavBtn {
+    background: #008BEC;
+    width: 7.5rem;
+    height: 7.5rem;
+    position: fixed;
+    top: 5rem;
+    left: 5vw;
+    border-radius: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    z-index: 100;
+  }
+  .navContainer .mobileNavBtn span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 4rem;
+    height: .5rem;
+    border-radius: 0 .5rem 0 0;
+    background: #F0FFFF;
+    margin: .45rem 0;
+    padding: 0;
+  }
+  .navContainer .mobileNavBtn.close {
+    -webkit-animation: appear 0.2s ease 0s 1 normal;
+    animation: appear 0.2s ease 0s 1 normal;
+  }
+  .navContainer .mobileNavBtn.close span {
+    margin: 0;
+    position: fixed;
+    border-radius: 0;
+  }
+  .navContainer .mobileNavBtn.close span:first-of-type {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    padding-top: .45rem;
+  }
+  .navContainer .mobileNavBtn.close span:last-of-type {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    padding-bottom: .45rem;
+  }
+  .navContainer .mobileNavBtn.close span:nth-of-type(2) {
+    display: none;
+  }
+  .navContainer .mobileNavBtn:active {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .navContainer nav {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    z-index: 50;
+    background: #fff;
+  }
+  .navContainer nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    max-width: 100%;
+  }
+  .navContainer nav ul #home_link {
+    -webkit-box-ordinal-group: -2;
+        -ms-flex-order: -3;
+            order: -3;
+  }
+  .navContainer nav ul li {
+    width: 100%;
+  }
+  .navContainer nav ul li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 3.2rem;
+    width: 100%;
+    padding: 3.5rem 0;
+    -webkit-transition: none;
+    transition: none;
+  }
+  .navContainer nav ul li:hover a {
+    background: #008BEC;
+    color: #F0FFFF;
+  }
+  .navContainer nav.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navContainer .mainLogo {
+    display: none;
+  }
+  .navContainer img {
+    width: 15rem;
+    padding: 0;
+  }
 }
 
 @media (min-width: 48em) {
   .navContainer {
-    border: 1px solid  red;
+    max-width: 720px;
+    max-width: 80vw;
+    min-height: 100px;
+  }
+  .navContainer .mobileNavBtn {
+    display: none;
+  }
+  .navContainer a {
+    font-size: 1.8rem;
+  }
+  .navContainer .mobileLogo {
+    display: none;
+  }
+  .navContainer img {
+    width: 20rem;
+  }
+  .navContainer nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navContainer #home_link {
+    display: none;
+    margin: 0;
+  }
+  .navContainer li:first-of-type, .navContainer li:last-of-type {
+    margin: 0;
+  }
+  .navContainer li {
+    margin: 0 2.5rem;
+  }
+  .navContainer a:hover, .navContainer a.active {
+    color: #008BEC;
   }
 }
 
 @media (min-width: 64em) {
   .navContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    border: 1px solid  green;
+    max-width: 1024px;
+    max-width: 80vw;
+  }
+  .navContainer a {
+    font-size: 2.1rem;
+  }
+  .navContainer img {
+    width: 24rem;
+  }
+  .navContainer li {
+    margin: 0 3.5rem;
   }
 }
 
 @media (min-width: 85.375em) {
   .navContainer {
-    border: 1px solid  blue;
+    padding-top: 5vh;
     max-width: 1280px;
+    max-width: 80vw;
   }
 }
 
+@media (min-width: 120em) {
+  .navContainer {
+    max-width: 1440px;
+  }
+}
+
+.navContainer li:last-of-type {
+  margin: 0;
+}
+
 .navContainer a {
-  font-size: 2.1rem;
   font-family: Metropolis-Medium, sans-serif;
   font-weight: 500;
   line-height: 1;
   text-decoration: none;
-  margin: 0 1.25rem;
+  color: #003153;
+  -webkit-transition: color .2s ease-in;
+  transition: color .2s ease-in;
+  margin: 0;
 }
 
 .navContainer a:lang(khm) {
   font-family: KhmerOSContent-Regular, sans-serif;
 }
 
-.navContainer img {
-  width: 28rem;
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
 }
 /*# sourceMappingURL=nav.module.css.map */

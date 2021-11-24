@@ -1,0 +1,205 @@
+@font-face {
+  font-family: Metropolis-Regular;
+  src: url(/fonts/Metropolis-Regular.otf);
+}
+
+@font-face {
+  font-family: Metropolis-Medium;
+  src: url(/fonts/Metropolis-Medium.otf);
+}
+
+@font-face {
+  font-family: Metropolis-SemiBold;
+  src: url(/fonts/Metropolis-SemiBold.otf);
+}
+
+@font-face {
+  font-family: work-sans-regular;
+  src: url(/fonts/work-sans-regular.otf);
+}
+
+@font-face {
+  font-family: KhmerOSContent-Regular;
+  src: url(/fonts/KhmerOSContent-Regular.ttf);
+}
+
+@font-face {
+  font-family: KhmerOSContent-Bold;
+  src: url(/fonts/KhmerOSContent-Bold.ttf);
+}
+
+/* 
+font nav: metropolis medium
+hero text: metropolis medium
+fonts button: metropolis semibold
+headings: metropolis semibold
+content text: work sans regular 
+*/
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+.hero span a {
+  background: #003153;
+  color: #fff;
+  text-decoration: none;
+  line-height: 1;
+  font-size: 2.1rem;
+  font-weight: 600;
+  padding: 1.5rem 2rem;
+  padding-right: 3rem;
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+  border-radius: 0 0 5rem 0;
+}
+
+.hero span a:hover {
+  background: #008BEC;
+  border-radius: 0;
+}
+
+.hero span a:active {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+@media (max-width: 40em) {
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+  .hero span a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 0;
+    width: 100%;
+    margin-top: -1rem;
+  }
+  .hero img {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 48em) {
+  .hero {
+    padding: 10% 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .hero span {
+    max-width: 50%;
+  }
+  .hero span h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2.5rem;
+    max-width: 30ch;
+  }
+  .hero span p {
+    max-width: 40ch;
+    margin-bottom: 3.5rem;
+  }
+  .hero img {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 64em) {
+  .hero span h1 {
+    font-size: 3.8rem;
+  }
+}
+
+@media (min-width: 120em) {
+  .hero span h1 {
+    font-size: 4.2rem;
+  }
+  .hero span a {
+    font-size: 2.4rem;
+  }
+}
+
+.skillset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5% 0;
+}
+
+@media (max-width: 40em) {
+  .skillset {
+    padding: 20% 0;
+  }
+  .skillset div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 2.5rem 0;
+  }
+  .skillset div img {
+    display: inline-block;
+    -webkit-box-flex: 0;
+        -ms-flex: none;
+            flex: none;
+    width: 150%;
+    max-width: 150%;
+  }
+}
+
+@media (min-width: 48em) {
+  .skillset div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+  }
+  .skillset img {
+    width: 65%;
+    max-width: 65%;
+    margin: 1.5rem 0;
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=hero.module.css.map */
