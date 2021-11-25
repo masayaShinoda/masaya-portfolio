@@ -69,7 +69,7 @@ content text: work sans regular
           transform: scale(0.8);
 }
 
-@media (max-width: 40em) {
+@media (max-width: 48em) {
   .hero {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -162,7 +162,7 @@ content text: work sans regular
   padding: 5% 0;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 48em) {
   .skillset {
     padding: 20% 0;
   }

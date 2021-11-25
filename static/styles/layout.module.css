@@ -35,7 +35,7 @@ fonts button: metropolis semibold
 headings: metropolis semibold
 content text: work sans regular 
 */
-@media (max-width: 40em) {
+@media (max-width: 48em) {
   main {
     max-width: 92%;
     padding: 10% 2.5%;

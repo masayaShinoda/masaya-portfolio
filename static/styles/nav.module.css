@@ -48,7 +48,7 @@ content text: work sans regular
           align-items: flex-end;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 48em) {
   .navContainer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;

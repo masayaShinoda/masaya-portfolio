@@ -84,7 +84,7 @@ li, a {
   text-overflow: hidden;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 48em) {
   h1 {
     font-size: 2.8rem;
   }

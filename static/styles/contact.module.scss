@@ -72,6 +72,7 @@
                 font-size: 2.1rem;
                 border-radius: 0 0 5rem 0;        
                 transition: .2s ease-in;
+                @media #{$mq-xsmall} {width: 100%}
             }
             button:hover, button:focus {background: $azure_blue; border-radius: 0}
             button:active {transform: scale(.9)}

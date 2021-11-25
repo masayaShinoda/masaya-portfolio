@@ -184,6 +184,12 @@ content text: work sans regular
   transition: .2s ease-in;
 }
 
+@media (max-width: 48em) {
+  .contactContainer .formContainer form button {
+    width: 100%;
+  }
+}
+
 .contactContainer .formContainer form button:hover, .contactContainer .formContainer form button:focus {
   background: #008BEC;
   border-radius: 0;
@@ -194,7 +200,7 @@ content text: work sans regular
           transform: scale(0.9);
 }
 
-@media (max-width: 40em) {
+@media (max-width: 48em) {
   .contactContainer {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
