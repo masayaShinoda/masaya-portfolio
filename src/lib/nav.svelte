@@ -44,7 +44,7 @@
                 <a href="https://github.com/masayaShinoda">Projects</a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/masaya-shida/">Contact</a>
+                <a href="/contact">Contact</a>
             </li>
             <li id="home_link">
                 <a href="/">Home</a>

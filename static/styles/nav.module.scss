@@ -9,7 +9,7 @@
         justify-content: center; align-items: flex-end;
         min-height: 22.5rem;
         max-width: 100%; padding: 0 5%;
-        // border: 1px solid purple; //debug
+        // outline: 1px solid purple; //debug
         .mobileNavBtn {
             background: $azure_blue; width: 7.5rem; height: 7.5rem;
             position: fixed; top: 5rem; left: 5vw; border-radius: 100%;
@@ -64,11 +64,11 @@
             width: 15rem;
             padding: 0;
             // margin-left: 12rem;
-            // border: 1px solid teal;
+            // outline: 1px solid teal; //debug
         }
     }
     @media #{$mq-small} {
-        // border: 1px solid red; //debug
+        // outline: 1px solid red; //debug
         max-width: 720px; max-width: 80vw;
         min-height: 100px;
         .mobileNavBtn {display: none}
@@ -86,7 +86,7 @@
     
     @media #{$mq-medium} {
         max-width: 1024px; max-width: 80vw;
-        // border: 1px solid green; //debug
+        // outline: 1px solid green; //debug
         a {font-size: 2.1rem;}
         img { // logo
             width: 24rem;
@@ -96,10 +96,10 @@
     @media #{$mq-large} {        
         padding-top: 5vh;
         max-width: 1280px; max-width: 80vw;
-        // border: 1px solid blue; //debug
+        // outline: 1px solid blue; //debug
     }
     @media #{$mq-xlarge} {
-        // border: 1px solid yellow; //debug
+        // outline: 1px solid yellow; //debug
         max-width: 1440px;
     }
     li:last-of-type {margin: 0;}
