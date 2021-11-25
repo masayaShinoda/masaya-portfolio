@@ -80,9 +80,13 @@
     }
 
     @media #{$mq-xsmall} {
+        flex-direction: column;
+        .aboutContainer, .formContainer {
+            width: 100%;
+        }
+        .formContainer {padding: 0}
     }    
     @media #{$mq-small} {
-        width: 50%;
     }
     @media #{$mq-medium} {
     } 

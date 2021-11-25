@@ -194,9 +194,18 @@ content text: work sans regular
           transform: scale(0.9);
 }
 
-@media (min-width: 48em) {
+@media (max-width: 40em) {
   .contactContainer {
-    width: 50%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contactContainer .aboutContainer, .contactContainer .formContainer {
+    width: 100%;
+  }
+  .contactContainer .formContainer {
+    padding: 0;
   }
 }
 /*# sourceMappingURL=contact.module.css.map */
