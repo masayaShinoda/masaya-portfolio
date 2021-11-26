@@ -190,6 +190,12 @@ content text: work sans regular
   }
 }
 
+@media (min-width: 48em) {
+  .contactContainer .formContainer form button {
+    width: 100%;
+  }
+}
+
 .contactContainer .formContainer form button:hover, .contactContainer .formContainer form button:focus {
   background: #008BEC;
   border-radius: 0;
@@ -212,6 +218,15 @@ content text: work sans regular
   }
   .contactContainer .formContainer {
     padding: 0;
+  }
+}
+
+@media (min-width: 48em) {
+  .contactContainer .aboutContainer {
+    width: 40%;
+  }
+  .contactContainer .formContainer {
+    width: 60%;
   }
 }
 /*# sourceMappingURL=contact.module.css.map */

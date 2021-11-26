@@ -73,11 +73,11 @@
                 border-radius: 0 0 5rem 0;        
                 transition: .2s ease-in;
                 @media #{$mq-xsmall} {width: 100%}
+                @media #{$mq-small} {width: 100%}
             }
             button:hover, button:focus {background: $azure_blue; border-radius: 0}
             button:active {transform: scale(.9)}
-        }
-        
+        }        
     }
 
     @media #{$mq-xsmall} {
@@ -88,6 +88,8 @@
         .formContainer {padding: 0}
     }    
     @media #{$mq-small} {
+        .aboutContainer {width: 40%}
+        .formContainer {width: 60%}
     }
     @media #{$mq-medium} {
     } 
