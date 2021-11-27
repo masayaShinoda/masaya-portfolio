@@ -25,22 +25,22 @@
         >
             <span class="namesSpan">
                 <label for="fname">
-                    First name:
-                    <input type="text" id="fname" name="fname"><br>
+                    First name
+                    <input type="text" id="fname" name="fname" required><br>
                 </label>
                 <label for="lname">
-                    Last name:
-                    <input type="text" id="lname" name="lname"><br>
+                    Last name
+                    <input type="text" id="lname" name="lname" required><br>
                 </label>
 
             </span>
             <label>
-                Email:
-                <input type="email" name="_replyto">
+                Email
+                <input type="email" name="_replyto" required>
             </label>
             <label>
                 Message:
-                <textarea name="message" wrap="off"></textarea>
+                <textarea name="message" wrap="off" required></textarea>
             </label>
             <button type="submit">Send message</button>
         </form>

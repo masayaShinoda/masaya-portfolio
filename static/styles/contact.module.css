@@ -90,8 +90,6 @@ content text: work sans regular
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 50%;
-  padding: 0 5%;
 }
 
 .contactContainer .formContainer form {
@@ -143,13 +141,14 @@ content text: work sans regular
       -ms-flex-align: start;
           align-items: flex-start;
   width: 100%;
-  padding: .5rem 0;
-  color: #333;
+  padding: .25rem 0;
+  color: #353535;
+  font-size: 1.4rem;
 }
 
 .contactContainer .formContainer form label input, .contactContainer .formContainer form label textarea {
   margin: 1rem 0;
-  padding: .75rem 1rem;
+  padding: .5rem .75rem;
   border-radius: .25rem;
   outline: 2px solid #d7d7d7;
 }
@@ -168,7 +167,7 @@ content text: work sans regular
 
 .contactContainer .formContainer form label textarea {
   width: 100%;
-  min-height: 10rem;
+  min-height: 14rem;
 }
 
 .contactContainer .formContainer form button {
@@ -226,7 +225,15 @@ content text: work sans regular
     width: 40%;
   }
   .contactContainer .formContainer {
-    width: 60%;
+    width: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 64em) {
+  .contactContainer .formContainer {
+    width: 35%;
+    max-width: 35%;
   }
 }
 /*# sourceMappingURL=contact.module.css.map */
