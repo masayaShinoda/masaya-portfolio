@@ -148,7 +148,7 @@ content text: work sans regular
 
 .contactContainer .formContainer form label input, .contactContainer .formContainer form label textarea {
   margin: 1rem 0;
-  padding: .5rem .75rem;
+  padding: .75rem;
   border-radius: .25rem;
   outline: 2px solid #d7d7d7;
 }
@@ -177,7 +177,7 @@ content text: work sans regular
   margin: 1.5rem 0;
   padding: 1.25rem;
   cursor: pointer;
-  font-size: 2.1rem;
+  font-size: 1.6rem;
   border-radius: 0 0 5rem 0;
   -webkit-transition: .2s ease-in;
   transition: .2s ease-in;
