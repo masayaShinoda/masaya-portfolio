@@ -39,9 +39,10 @@ content text: work sans regular
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-width: 100%;
   width: 100%;
   max-width: 100%;
@@ -56,19 +57,54 @@ content text: work sans regular
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  width: 50%;
+}
+
+.contactContainer .aboutContainer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .contactContainer .aboutContainer .socials a {
-  margin: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  line-height: 1;
   font-weight: 500;
   text-decoration: none;
   color: #003153;
   -webkit-transition: .2s ease-in;
   transition: .2s ease-in;
+  margin-left: 2.5rem;
+}
+
+.contactContainer .aboutContainer .socials a img {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  margin-right: 1rem;
 }
 
 .contactContainer .aboutContainer .socials a:first-of-type {
@@ -177,8 +213,7 @@ content text: work sans regular
   margin: 1.5rem 0;
   padding: 1.25rem;
   cursor: pointer;
-  font-size: 1.6rem;
-  border-radius: 0 0 5rem 0;
+  font-size: 1.8rem;
   -webkit-transition: .2s ease-in;
   transition: .2s ease-in;
 }
@@ -197,7 +232,6 @@ content text: work sans regular
 
 .contactContainer .formContainer form button:hover, .contactContainer .formContainer form button:focus {
   background: #008BEC;
-  border-radius: 0;
 }
 
 .contactContainer .formContainer form button:active {
@@ -215,25 +249,39 @@ content text: work sans regular
   .contactContainer .aboutContainer, .contactContainer .formContainer {
     width: 100%;
   }
+  .contactContainer .aboutContainer .socials, .contactContainer .formContainer .socials {
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .contactContainer .aboutContainer .socials a, .contactContainer .formContainer .socials a {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 1rem 0;
+    margin: 0;
+  }
+  .contactContainer .aboutContainer .socials a img, .contactContainer .formContainer .socials a img {
+    max-width: 1.8rem;
+  }
   .contactContainer .formContainer {
     padding: 0;
   }
 }
 
 @media (min-width: 48em) {
-  .contactContainer .aboutContainer {
-    width: 40%;
-  }
   .contactContainer .formContainer {
     width: 50%;
     max-width: 50%;
+    padding: 2.5% 0;
   }
 }
 
 @media (min-width: 64em) {
   .contactContainer .formContainer {
-    width: 35%;
-    max-width: 35%;
+    width: 40%;
+    max-width: 40%;
   }
 }
 /*# sourceMappingURL=contact.module.css.map */

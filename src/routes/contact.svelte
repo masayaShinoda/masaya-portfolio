@@ -8,12 +8,24 @@
         <h1>Contact me</h1>
         <span class="socials">
             <a href="https://www.linkedin.com/in/masaya-shida/">
+                <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Linkedin_circle.svg"
+                    alt="LinkedIn logo"
+                />
                 LinkedIn
             </a>
             <a href="https://github.com/masayaShinoda">
+                <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                    alt="GitHub logo"
+                />
                 GitHub
             </a>
             <a href="https://t.me/shinoda17">
+                <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/8/83/Telegram_2019_Logo.svg" 
+                    alt="Telegram logo"
+                >
                 Telegram
             </a>        
         </span>
