@@ -37,6 +37,7 @@ content text: work sans regular
 */
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 :lang(khm) {

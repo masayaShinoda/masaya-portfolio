@@ -1,11 +1,12 @@
 <script>
     import SvelteMarkdown from 'svelte-markdown'
 
-    const heroMd = `
+    const heroMd =
+`
 # Cambodia-based Web Developer
 Hello! My name is Masaya and I help businesses and ideas achieve a quality online presence.
 
-[See my projects](https://github.com/masayaShinoda)
+[See my projects](#projects)
 `
 </script>
 

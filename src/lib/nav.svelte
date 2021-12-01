@@ -41,7 +41,7 @@
     <nav id="nav">
         <ul on:click={handleMobileNav}>
             <li>
-                <a href="https://github.com/masayaShinoda">Projects</a>
+                <a href="/#projects">Projects</a>
             </li>
             <li>
                 <a href="/contact">Contact</a>

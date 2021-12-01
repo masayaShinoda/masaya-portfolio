@@ -13,7 +13,8 @@
             padding: 1.5rem 2rem;
             padding-right: 3rem;
             transition: .2s ease-in;
-            border-radius: 0 0 5rem 0;        
+            border-radius: 0 0 5rem 0;
+            // outline: 1px solid salmon;
         }
         a:hover {background: $azure_blue; border-radius: 0}
         a:active {transform: scale(.8)}
