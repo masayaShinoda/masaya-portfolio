@@ -12,6 +12,11 @@ Personal blog website
 ![screenshot of cryptocalc-site.vercel.app](/images/1280w/cryptocalc_result.png)
 Cryptocurrency investment calculator
 ](https://github.com/masayaShinoda/cryptocalc-site)
+-
+[
+![screenshot of FreeCodeCamp certificate](/images/1x/fcc-certif.png)
+FCC Certification projects
+](https://fcc.masayashida.com)
 `
 
 </script>
@@ -19,6 +24,8 @@ Cryptocurrency investment calculator
     <h2>Projects</h2>
     <SvelteMarkdown source={portfMd} />
 </section>
+
+
 
 <style>
     @import '../../static/styles/projects.module.css';

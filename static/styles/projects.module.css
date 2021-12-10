@@ -56,11 +56,8 @@ content text: work sans regular
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
   -ms-grid-column: auto auto auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   list-style-type: none;
-  grid-gap: 10%;
+  grid-gap: 5%;
 }
 
 @media (max-width: 48em) {
@@ -86,6 +83,9 @@ content text: work sans regular
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   width: 100%;
 }
 
@@ -100,8 +100,10 @@ content text: work sans regular
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   color: #003153;
   text-decoration: none;
+  text-overflow: ellipsis;
 }
 
 .projectsSection ul li a:hover img {
@@ -112,8 +114,8 @@ content text: work sans regular
 .projectsSection ul li img {
   height: 21rem;
   max-height: 21rem;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   margin-bottom: 1.75rem;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;

@@ -9,23 +9,26 @@
         // grid-template-columns: 1fr 1fr 1fr; 
         // -ms-grid-column: 1fr 1fr 1fr;
         grid-template-columns: auto auto auto; 
-        -ms-grid-column: auto auto auto;
-        justify-content: center;
+        -ms-grid-column: auto auto auto;;
         list-style-type: none;
-        grid-gap: 10%;
+        grid-gap: 5%;
         @media #{$mq-xsmall} {
             display: flex; flex-direction: column;
         }
         li {
             display: flex; flex-direction: column-reverse; 
             align-items: center;
+            justify-content: flex-end;
             // background: $azure-white;
             width: 100%;
             // outline: 1px solid salmon; //debug
             a {
-                display: flex; flex-direction: column; align-items: center;
+                display: flex; flex-direction: column; 
+                align-items: center;
+                text-align: center;
                 color: $prussian_blue;
                 text-decoration: none;
+                text-overflow: ellipsis;
             }
             a:hover {
                 img {
@@ -35,7 +38,8 @@
             img {
                 height: 21rem;
                 max-height: 21rem;
-                object-fit: cover;
+                object-fit: contain;
+                // object-fit: cover;
                 margin-bottom: 1.75rem;
                 transition: .2s ease-in-out;
             }
