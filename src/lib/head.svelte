@@ -19,12 +19,12 @@
       <meta property="og:type" content="website">
       <meta property="og:title" content="Masaya Shida">
       <meta property="og:description" content="Cambodia-based web developer and graphic designer.">
-      <meta property="og:image" content="/static/images/banner-logo-margins.png">
+      <meta property="og:image" content="images/1024w/banner-logo-margins.png">
   
       <!-- Twitter -->
       <meta property="twitter:card" content="summary_large_image">
       <meta property="twitter:title" content="Masaya Shida">
       <meta property="twitter:description" content="Personal portfolio homepage for Cambodia-based web developer.">
-      <meta property="twitter:image" content="/static/images/banner-logo-margins.png">
+      <meta property="twitter:image" content="images/1024w/banner-logo-margins.png">
   
   </svelte:head>
