@@ -6,12 +6,12 @@
 [
 ![screenshot of blog.masayashida.com](/images/1280w/masayas-thoughts_result.png)
 Personal blog website
-](https://github.com/masayaShinoda/masayas-thoughts-site)
+](https://blog.masayashida.com)
 -
 [
 ![screenshot of cryptocalc-site.vercel.app](/images/1280w/cryptocalc_result.png)
 Cryptocurrency investment calculator
-](https://github.com/masayaShinoda/cryptocalc-site)
+](https://cryptocalc-site.vercel.app/)
 -
 [
 ![screenshot of FreeCodeCamp certificate](/images/1x/fcc-certif.png)
