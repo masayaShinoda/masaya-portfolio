@@ -25,8 +25,6 @@ FCC Certification projects
     <SvelteMarkdown source={portfMd} />
 </section>
 
-
-
 <style>
     @import '../../static/styles/projects.module.css';
 </style>
