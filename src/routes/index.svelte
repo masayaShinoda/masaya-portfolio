@@ -5,7 +5,7 @@
     import HomeContent from '$lib/homeContent.svelte'
 </script>
 
-<SeoHead pageTitle="Home" />
+<SeoHead />
 <div class="home">
     <Hero />
     <Projects />
