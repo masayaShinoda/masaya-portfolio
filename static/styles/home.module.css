@@ -35,17 +35,7 @@ fonts button: metropolis semibold
 headings: metropolis semibold
 content text: work sans regular 
 */
-.hero {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 100%;
-}
-
-.hero span a {
+.home span a {
   background: #003153;
   color: #fff;
   text-decoration: none;
@@ -59,24 +49,18 @@ content text: work sans regular
   border-radius: 0 0 5rem 0;
 }
 
-.hero span a:hover {
+.home span a:hover {
   background: #008BEC;
   border-radius: 0;
 }
 
-.hero span a:active {
+.home span a:active {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
 }
 
 @media (max-width: 48em) {
-  .hero {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .hero span {
+  .home span {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -90,7 +74,7 @@ content text: work sans regular
     text-align: center;
     max-width: 100%;
   }
-  .hero span a {
+  .home span a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -100,6 +84,59 @@ content text: work sans regular
     border-radius: 0;
     width: 100%;
     margin-top: -1rem;
+  }
+}
+
+.home section {
+  padding: 5% 0;
+}
+
+@media (min-width: 48em) {
+  .home span {
+    max-width: 50%;
+  }
+  .home span h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2.5rem;
+    max-width: 30ch;
+  }
+  .home span p {
+    max-width: 40ch;
+    margin-bottom: 3.5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .home span h1 {
+    font-size: 3.8rem;
+  }
+}
+
+@media (min-width: 120em) {
+  .home span h1 {
+    font-size: 4.2rem;
+  }
+  .home span a {
+    font-size: 2.4rem;
+  }
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+}
+
+@media (max-width: 48em) {
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .hero img {
     max-width: 90%;
@@ -116,35 +153,8 @@ content text: work sans regular
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .hero span {
-    max-width: 50%;
-  }
-  .hero span h1 {
-    font-size: 3.2rem;
-    margin-bottom: 2.5rem;
-    max-width: 30ch;
-  }
-  .hero span p {
-    max-width: 40ch;
-    margin-bottom: 3.5rem;
-  }
   .hero img {
     max-width: 40%;
-  }
-}
-
-@media (min-width: 64em) {
-  .hero span h1 {
-    font-size: 3.8rem;
-  }
-}
-
-@media (min-width: 120em) {
-  .hero span h1 {
-    font-size: 4.2rem;
-  }
-  .hero span a {
-    font-size: 2.4rem;
   }
 }
 
@@ -202,4 +212,4 @@ content text: work sans regular
     height: 100%;
   }
 }
-/*# sourceMappingURL=hero.module.css.map */
+/*# sourceMappingURL=home.module.css.map */

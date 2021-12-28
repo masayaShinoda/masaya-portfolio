@@ -1,6 +1,6 @@
 <script>
     import SvelteMarkdown from 'svelte-markdown'
-    const portfMd =
+    const portfMdWeb =
 `
 - 
 [
@@ -17,12 +17,18 @@ Cryptocurrency investment calculator
 ![screenshot of FreeCodeCamp certificate](/images/1x/fcc-certif.png)
 FCC Certification projects
 ](https://fcc.masayashida.com)
+-
+[
+![screenshot of sentinelspropertyalliance.com](/images/1280w/sentinelsproperty_result.png)
+Real estate listings website
+](https://sentinelspropertyalliance.com)
 `
 
 </script>
 <section class="projectsSection" id="projects">
     <h2>Projects</h2>
-    <SvelteMarkdown source={portfMd} />
+    <!-- <h3>Web Design & Development</h3> -->
+    <SvelteMarkdown source={portfMdWeb} />
 </section>
 
 <style>

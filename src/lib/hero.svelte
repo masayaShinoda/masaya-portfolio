@@ -4,10 +4,11 @@
     const heroMd =
 `
 # Cambodia-based Web Developer
-Hello! My name is Masaya and I help businesses and ideas achieve a quality online presence.
+Hello! My name is Masaya and I help businesses and ideas achieve a quality online presence with web development and graphic design.
 
 [See my projects](#projects)
 `
+
 </script>
 
 <section class="hero">
@@ -21,11 +22,9 @@ Hello! My name is Masaya and I help businesses and ideas achieve a quality onlin
     <div>
         <img 
             src="/images/SVG/technologies-list.svg" 
-            alt="Logos of HTML & CSS, JavaScript, ReactJS, NextJS, SvelteJS, Bootstrap"
+            alt="Logos of HTML & CSS, JavaScript, ReactJS, NextJS, SvelteJS, Bootstrap, Adobe Illustrator, Adobe Photoshop"
         />
     </div>
 </section>
 
-<style>
-    @import '../../static/styles/hero.module.css';
-</style>
+

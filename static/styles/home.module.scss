@@ -1,9 +1,6 @@
 @import './_variables.scss';
 
-.hero {
-    display: flex; align-items: flex-start;
-    width: 100%;
-
+.home {
     span {
         a {
             //hero btn
@@ -19,9 +16,8 @@
         a:hover {background: $azure_blue; border-radius: 0}
         a:active {transform: scale(.8)}
     }
-
+    
     @media #{$mq-xsmall} {
-        flex-direction: column;
         span {
             // padding: 5% 0;
             display: flex; flex-direction: column;
@@ -40,15 +36,11 @@
             margin-top: -1rem;
             }
         }
-        img {max-width: 90%;}
     }
-    
+    section {
+        padding: 5% 0;
+    }
     @media #{$mq-small} {
-        // height: 480px;
-        padding: 10% 0;
-        align-items: center;
-        justify-content: space-between;
-        // outline: 1px solid red; //debug
         span {
             //hero text
             max-width: 50%;
@@ -58,10 +50,7 @@
             }
             p {max-width: 40ch; margin-bottom: 3.5rem;}
         }
-        img {
-            max-width: 40%; 
-            // outline: 1px solid green;
-        }
+    
     }
     @media #{$mq-medium} {
         span {
@@ -74,6 +63,30 @@
             a {font-size: 2.4rem}
         }
     }
+    
+}
+
+.hero {
+    display: flex; align-items: flex-start;
+    width: 100%;
+    @media #{$mq-xsmall} {
+        flex-direction: column;
+        img {max-width: 90%;}
+
+    }
+    @media #{$mq-small} {
+        img {
+            max-width: 40%; 
+            // outline: 1px solid green;
+        }
+        // height: 480px;
+        padding: 10% 0;
+        align-items: center;
+        justify-content: space-between;
+        
+        // outline: 1px solid red; //debug
+    }
+
 }
 
 .skillset {
