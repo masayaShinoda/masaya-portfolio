@@ -35,6 +35,10 @@ fonts button: metropolis semibold
 headings: metropolis semibold
 content text: work sans regular 
 */
+.home {
+  margin: 0 auto;
+}
+
 .home span a {
   background: #003153;
   color: #fff;
@@ -68,10 +72,6 @@ content text: work sans regular
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    text-align: center;
     max-width: 100%;
   }
   .home span a {

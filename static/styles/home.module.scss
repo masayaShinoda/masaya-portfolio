@@ -1,6 +1,8 @@
 @import './_variables.scss';
 
 .home {
+    // outline: 1px solid blue; //debug
+    margin: 0 auto;
     span {
         a {
             //hero btn
@@ -21,8 +23,8 @@
         span {
             // padding: 5% 0;
             display: flex; flex-direction: column;
-            align-items: center;
-            text-align: center;
+            // align-items: center;
+            // text-align: center;
             max-width: 100%;
             // p {max-width: 80%;}
         }
