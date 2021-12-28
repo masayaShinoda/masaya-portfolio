@@ -6,11 +6,11 @@
 </script>
 
 <SeoHead pageTitle="Home" />
-<main class="home">
+<div class="home">
     <Hero />
     <Projects />
     <HomeContent />
-</main>
+</div>
 
 <style>
     @import '../../static/styles/home.module.css';
