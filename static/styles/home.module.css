@@ -37,9 +37,10 @@ content text: work sans regular
 */
 .home {
   margin: 0 auto;
+  padding: 5% 0;
 }
 
-.home span a {
+.home div a {
   background: #003153;
   color: #fff;
   text-decoration: none;
@@ -53,18 +54,18 @@ content text: work sans regular
   border-radius: 0 0 5rem 0;
 }
 
-.home span a:hover {
+.home div a:hover {
   background: #008BEC;
   border-radius: 0;
 }
 
-.home span a:active {
+.home div a:active {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
 }
 
 @media (max-width: 48em) {
-  .home span {
+  .home div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -74,7 +75,7 @@ content text: work sans regular
             flex-direction: column;
     max-width: 100%;
   }
-  .home span a {
+  .home div a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -92,31 +93,31 @@ content text: work sans regular
 }
 
 @media (min-width: 48em) {
-  .home span {
+  .home div {
     max-width: 50%;
   }
-  .home span h1 {
+  .home div h1 {
     font-size: 3.2rem;
     margin-bottom: 2.5rem;
     max-width: 30ch;
   }
-  .home span p {
+  .home div p {
     max-width: 40ch;
     margin-bottom: 3.5rem;
   }
 }
 
 @media (min-width: 64em) {
-  .home span h1 {
+  .home div h1 {
     font-size: 3.8rem;
   }
 }
 
 @media (min-width: 120em) {
-  .home span h1 {
+  .home div h1 {
     font-size: 4.2rem;
   }
-  .home span a {
+  .home div a {
     font-size: 2.4rem;
   }
 }

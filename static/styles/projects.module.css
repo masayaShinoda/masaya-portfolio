@@ -89,6 +89,12 @@ content text: work sans regular
   width: 100%;
 }
 
+@media (min-width: 48em) {
+  .projectsSection ul li {
+    margin: 0 10%;
+  }
+}
+
 .projectsSection ul li a {
   display: -webkit-box;
   display: -ms-flexbox;

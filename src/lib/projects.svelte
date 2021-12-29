@@ -14,14 +14,14 @@ Cryptocurrency investment calculator
 ](https://cryptocalc-site.vercel.app/)
 -
 [
-![screenshot of FreeCodeCamp certificate](/images/1x/fcc-certif.png)
-FCC Certification projects
-](https://fcc.masayashida.com)
--
-[
 ![screenshot of sentinelspropertyalliance.com](/images/1280w/sentinelsproperty_result.png)
 Real estate listings website
 ](https://sentinelspropertyalliance.com)
+-
+[
+![screenshot of FreeCodeCamp certificate](/images/1x/fcc-certif.png)
+FCC Certification projects
+](https://fcc.masayashida.com)
 `
 
 </script>

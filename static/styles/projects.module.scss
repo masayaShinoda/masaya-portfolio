@@ -9,7 +9,7 @@
         // grid-template-columns: 1fr 1fr 1fr; 
         // -ms-grid-column: 1fr 1fr 1fr;
         grid-template-columns: auto auto auto; 
-        -ms-grid-column: auto auto auto;;
+        -ms-grid-column: auto auto auto;
         list-style-type: none;
         grid-gap: 5%;
         @media #{$mq-xsmall} {
@@ -22,6 +22,9 @@
             // background: $azure-white;
             width: 100%;
             // outline: 1px solid salmon; //debug
+            @media #{$mq-small} {
+                margin: 0 10%;
+            }
             a {
                 display: flex; flex-direction: column; 
                 align-items: center;

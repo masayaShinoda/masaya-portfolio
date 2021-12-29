@@ -4,7 +4,7 @@
     const heroMd =
 `
 # Cambodia-based Web Developer
-Hello! My name is Masaya and I help businesses and ideas achieve a quality online presence with web development and graphic design.
+Hello! My name is Masaya and I help businesses and ideas achieve a quality online presence.
 
 [See my projects](#projects)
 `
@@ -12,19 +12,19 @@ Hello! My name is Masaya and I help businesses and ideas achieve a quality onlin
 </script>
 
 <section class="hero">
-    <span>
+    <div>
         <SvelteMarkdown source={heroMd} />
-    </span>
+    </div>
     <img src="/images/1x/hero-mockup.png" alt="Website mockups">
 </section>
 <section class="skillset">
     <h2>Skillset</h2>
-    <div>
+    <!-- <div> -->
         <img 
             src="/images/SVG/technologies-list.svg" 
             alt="Logos of HTML & CSS, JavaScript, ReactJS, NextJS, SvelteJS, Bootstrap, Adobe Illustrator, Adobe Photoshop"
         />
-    </div>
+    <!-- </div> -->
 </section>
 
 

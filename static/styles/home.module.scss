@@ -3,7 +3,8 @@
 .home {
     // outline: 1px solid blue; //debug
     margin: 0 auto;
-    span {
+    padding: 5% 0;
+    div {
         a {
             //hero btn
             background: $prussian_blue; color: #fff;
@@ -20,7 +21,7 @@
     }
     
     @media #{$mq-xsmall} {
-        span {
+        div {
             // padding: 5% 0;
             display: flex; flex-direction: column;
             // align-items: center;
@@ -28,7 +29,7 @@
             max-width: 100%;
             // p {max-width: 80%;}
         }
-        span { 
+        div { 
             a {
             //mobile call to action
             display: flex;
@@ -43,7 +44,7 @@
         padding: 5% 0;
     }
     @media #{$mq-small} {
-        span {
+        div {
             //hero text
             max-width: 50%;
             h1 {
@@ -55,12 +56,12 @@
     
     }
     @media #{$mq-medium} {
-        span {
+        div {
             h1 {font-size: 3.8rem}
         }
     } 
     @media #{$mq-xlarge} {
-        span {
+        div {
             h1 {font-size: 4.2rem}
             a {font-size: 2.4rem}
         }
