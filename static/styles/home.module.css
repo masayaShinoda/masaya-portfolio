@@ -208,10 +208,17 @@ content text: work sans regular
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    max-width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     height: auto;
+  }
+  .skillset div img {
+    width: 65%;
+    max-width: 65%;
+    margin: 1.5rem 0;
+    height: 100%;
   }
 }
 

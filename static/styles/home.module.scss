@@ -104,7 +104,7 @@
         padding: 20% 0;
         div {
             display: flex;
-            width: 100%;
+            width: 100%; 
             overflow-x: scroll;
             padding: 2.5rem 0;
             // width: auto;            
@@ -124,9 +124,9 @@
     
     @media #{$mq-small} {
         div {
-            display: flex; width: 100%; justify-content: center; height: auto; 
+            display: flex; width: 100%; max-width: 100%; justify-content: center; height: auto; 
             // outline: 1px solid teal;
-            // img {width: 65%; max-width: 65%; margin: 1.5rem 0; height: 100%}
+            img {width: 65%; max-width: 65%; margin: 1.5rem 0; height: 100%}
         }
     }
     
