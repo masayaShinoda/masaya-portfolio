@@ -40,6 +40,12 @@ content text: work sans regular
   padding: 5% 0;
 }
 
+@media (max-width: 48em) {
+  .home {
+    padding: 0;
+  }
+}
+
 .home div a {
   background: #003153;
   color: #fff;

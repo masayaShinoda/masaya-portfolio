@@ -4,6 +4,9 @@
     // outline: 1px solid blue; //debug
     margin: 0 auto;
     padding: 5% 0;
+    @media #{$mq-xsmall} {
+        padding: 0;
+    }
     div {
         a {
             //hero btn
