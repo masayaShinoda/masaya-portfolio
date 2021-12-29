@@ -22,7 +22,7 @@ Hello! My name is Masaya and I help businesses and ideas achieve a quality onlin
     <div>
         <img 
             src="/images/SVG/technologies-list.svg" 
-            alt="Logos of HTML & CSS, JavaScript, ReactJS, NextJS, SvelteJS, Bootstrap, Adobe Illustrator, Adobe Photoshop"
+            alt="Logos of technologies I am familiar with"
         />
     </div>
 </section>

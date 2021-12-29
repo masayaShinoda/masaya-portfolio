@@ -26,13 +26,14 @@
 
 <div class="navContainer">
     <a href="/">
-        <img src="/images/SVG/masaya-web-dev-logo.svg" alt="Logo" class="mainLogo">
-        <img src="/images/SVG/maya-logo-vert.svg" alt="logo" class="mobileLogo">
+        <img src="/images/SVG/masaya-web-dev-logo.svg" alt="Masaya Shida logo" class="mainLogo">
+        <img src="/images/SVG/maya-logo-vert.svg" alt="Masaya Shida logo" class="mobileLogo">
     </a>
     <button
         on:click={handleMobileNav} 
         class="mobileNavBtn"
         id="mobileNavBtn"
+        value="Navigation"
     >
         <span></span>
         <span></span>
