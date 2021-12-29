@@ -116,6 +116,7 @@
                 flex: none;
                 width: 150%;
                 max-width: 150%;
+                outline: 1px solid sgreen; //debug
                 // max-width: 100%;
             }
         }
@@ -125,8 +126,8 @@
         div {
             display: flex; width: 100%; justify-content: center; height: auto; 
             // outline: 1px solid teal;
+            // img {width: 65%; max-width: 65%; margin: 1.5rem 0; height: 100%}
         }
-        img {width: 65%; max-width: 65%; margin: 1.5rem 0; height: 100%}
     }
     
 }

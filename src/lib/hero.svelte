@@ -19,12 +19,12 @@ Hello! My name is Masaya and I help businesses and ideas achieve a quality onlin
 </section>
 <section class="skillset">
     <h2>Skillset</h2>
-    <!-- <div> -->
+    <div>
         <img 
             src="/images/SVG/technologies-list.svg" 
             alt="Logos of HTML & CSS, JavaScript, ReactJS, NextJS, SvelteJS, Bootstrap, Adobe Illustrator, Adobe Photoshop"
         />
-    <!-- </div> -->
+    </div>
 </section>
 
 

@@ -198,6 +198,7 @@ content text: work sans regular
             flex: none;
     width: 150%;
     max-width: 150%;
+    outline: 1px solid sgreen;
   }
 }
 
@@ -211,12 +212,6 @@ content text: work sans regular
         -ms-flex-pack: center;
             justify-content: center;
     height: auto;
-  }
-  .skillset img {
-    width: 65%;
-    max-width: 65%;
-    margin: 1.5rem 0;
-    height: 100%;
   }
 }
 /*# sourceMappingURL=home.module.css.map */
