@@ -33,7 +33,6 @@
         on:click={handleMobileNav} 
         class="mobileNavBtn"
         id="mobileNavBtn"
-        value="Navigation"
     >
         <span></span>
         <span></span>

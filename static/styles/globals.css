@@ -72,11 +72,11 @@ div, span, p, a, ul, ol, q, blockquote {
 }
 
 h1, h2 {
-  max-width: 45ch;
+  max-width: 30ch;
 }
 
 span, p, a, ul, ol, q, blockquote {
-  max-width: 60ch;
+  max-width: 45ch;
   margin: 1.8rem 0;
 }
 
@@ -88,9 +88,11 @@ li, a {
 @media (max-width: 48em) {
   h1 {
     font-size: 2.8rem;
+    max-width: 100%;
   }
   h2 {
     font-size: 2.4rem;
+    max-width: 100%;
   }
   div, span, p, a, ul, ol, q, blockquote {
     font-size: 1.6rem;

@@ -1,5 +1,6 @@
 @import './_variables.scss';
 
+ 
 .home {
     // outline: 1px solid blue; //debug
     margin: 0 auto;
@@ -141,7 +142,7 @@
         margin-bottom: 1.5rem;
         display: flex; justify-content: space-between; flex-wrap: wrap;
         span {
-            max-width: 50%;
+            max-width: 45%;
             @media #{$mq-xsmall} {
                 width: 100%; max-width: 100%;
             }
@@ -154,4 +155,12 @@
             }
         }
     }
+    p > a { 
+        // buttons inside paragraphs retain default styling
+        display: inline; padding: 0; margin: 0;  
+        background: 0; color: $prussian_blue;
+        text-decoration: underline;
+    }
 }
+
+
