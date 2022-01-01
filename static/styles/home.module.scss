@@ -140,15 +140,24 @@
         width: 100%;
         max-width: 100%;
         margin-bottom: 1.5rem;
-        display: flex; justify-content: space-between; flex-wrap: wrap;
+        // display: flex; justify-content: space-between; flex-wrap: wrap;
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        -ms-grid-column: 1fr 1fr;
+        @media #{$mq-xsmall} {
+            display: flex; flex-direction: column; align-items: flex-start;
+        }
+        // outline: 1px solid green; //debug
         span {
-            max-width: 45%;
+            max-width: 90%; padding: 5% 0;
             @media #{$mq-xsmall} {
                 width: 100%; max-width: 100%;
             }
         }
         img {
-            width: 40%; max-width: 40%;
+            width: 65%; max-width: 65%;
+            max-height: 250px;
             object-fit: contain;
             @media #{$mq-xsmall} {
                 width: 100%; max-width: 100%;
