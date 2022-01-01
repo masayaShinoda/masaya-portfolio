@@ -18,7 +18,7 @@ I believe that in this busy world, we tend to overlook how important it is to ke
 {
     content:
 `
-## Accessibility as a necessity
+## Accessibility is a Necessity, not an Afterthought
 Since the web is a platform that is accessed by a wide variety of devices, and by people with physical or cognitive challenges, it matters to me that webpages pass essential [WCAG](https://www.w3.org/WAI/WCAG21/quickref/) standards such as perceivability, distinguishability, and operability in order to try to be as accessible as possible.
 `,
     image:
@@ -34,7 +34,6 @@ Since the web is a platform that is accessed by a wide variety of devices, and b
 
 <section class="content_sections_container">
     <div class="content_section">
-        {#if contentSections}
         {#each contentSections as section}
             <span>
                 <SvelteMarkdown source={section[`content`]} />
@@ -43,8 +42,5 @@ Since the web is a platform that is accessed by a wide variety of devices, and b
                 {/if}
             </span>
         {/each}
-        {/if}
-        <span>
-        </span>
     </div>
 </section>
