@@ -282,5 +282,12 @@ content text: work sans regular
   background: 0;
   color: #003153;
   text-decoration: underline;
+  -webkit-transition: 0s;
+  transition: 0s;
+}
+
+.content_sections_container p > a:hover, .content_sections_container p > a:focus, .content_sections_container p > a:active {
+  background: 0;
+  color: #008BEC;
 }
 /*# sourceMappingURL=home.module.css.map */

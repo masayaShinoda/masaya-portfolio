@@ -159,7 +159,10 @@
         // buttons inside paragraphs retain default styling
         display: inline; padding: 0; margin: 0;  
         background: 0; color: $prussian_blue;
-        text-decoration: underline;
+        text-decoration: underline; transition: 0s;
+    }
+    p > a:hover, p > a:focus, p > a:active {
+        background: 0; color: $azure_blue;
     }
 }
 
