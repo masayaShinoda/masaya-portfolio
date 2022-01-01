@@ -72,6 +72,12 @@ content text: work sans regular
   }
 }
 
+@media (min-width: 48em) {
+  .projectsSection ul {
+    min-width: 100%;
+  }
+}
+
 .projectsSection ul li {
   display: -webkit-box;
   display: -ms-flexbox;

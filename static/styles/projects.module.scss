@@ -12,8 +12,12 @@
         -ms-grid-column: auto auto auto;
         list-style-type: none;
         grid-gap: 5%;
+        // outline: 1px solid teal; //debug
         @media #{$mq-xsmall} {
             display: flex; flex-direction: column;
+        }
+        @media #{$mq-small} {
+            min-width: 100%
         }
         li {
             display: flex; flex-direction: column-reverse; 
@@ -24,6 +28,8 @@
             // outline: 1px solid salmon; //debug
             @media #{$mq-small} {
                 margin: 0 10%;
+                // outline: 1px solid orange; //debug
+
             }
             a {
                 display: flex; flex-direction: column; 
