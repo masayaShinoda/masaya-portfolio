@@ -4,12 +4,13 @@
     display: flex; flex-direction: column; align-items: center; width: 100%;
     ul {
         width: 100%;
+        max-width: 100%;
         display: -ms-grid;
         display: grid; 
         // grid-template-columns: 1fr 1fr 1fr; 
         // -ms-grid-column: 1fr 1fr 1fr;
-        grid-template-columns: auto auto auto; 
-        -ms-grid-column: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr; 
+        -ms-grid-column: 1fr 1fr 1fr;
         list-style-type: none;
         grid-gap: 5%;
         // outline: 1px solid teal; //debug
@@ -27,7 +28,7 @@
             width: 100%;
             // outline: 1px solid salmon; //debug
             @media #{$mq-small} {
-                margin: 0 10%;
+                // margin: 0 10%;
                 // outline: 1px solid orange; //debug
 
             }

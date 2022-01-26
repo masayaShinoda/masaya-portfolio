@@ -51,11 +51,12 @@ content text: work sans regular
 
 .projectsSection ul {
   width: 100%;
+  max-width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
-  -ms-grid-column: auto auto auto;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-column: 1fr 1fr 1fr;
   list-style-type: none;
   grid-gap: 5%;
 }
@@ -93,12 +94,6 @@ content text: work sans regular
       -ms-flex-pack: end;
           justify-content: flex-end;
   width: 100%;
-}
-
-@media (min-width: 48em) {
-  .projectsSection ul li {
-    margin: 0 10%;
-  }
 }
 
 .projectsSection ul li a {
