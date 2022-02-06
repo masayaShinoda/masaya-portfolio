@@ -6,7 +6,7 @@
 [
 ![screenshot of Zillion United's corporate website](/images/1280w/z1-corporate_result.webp)
 Trading App Corporate Website
-](https://zillion-united-frontend.vercel.app)
+](https://zillionunited.io)
 - 
 [
 ![screenshot of blog.masayashida.com](/images/1280w/masayas-thoughts_result.webp)
