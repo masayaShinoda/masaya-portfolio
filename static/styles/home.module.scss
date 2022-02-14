@@ -154,6 +154,10 @@
             @media #{$mq-xsmall} {
                 width: 100%; max-width: 100%;
             }
+            h2 {
+                padding-bottom: .5rem;
+                border-bottom: $azure_blue .325rem solid; 
+            }
         }
         img {
             width: 65%; max-width: 65%;

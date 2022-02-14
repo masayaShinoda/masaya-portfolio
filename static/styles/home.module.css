@@ -274,6 +274,11 @@ content text: work sans regular
   }
 }
 
+.content_sections_container .content_section span h2 {
+  padding-bottom: .5rem;
+  border-bottom: #008BEC 0.325rem solid;
+}
+
 .content_sections_container .content_section img {
   width: 65%;
   max-width: 65%;
