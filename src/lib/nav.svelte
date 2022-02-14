@@ -54,7 +54,7 @@
                href="https://courses-kh.masayashida.com/"
                lang="km"
                >
-                វគ្គសិក្សា <span>🇰🇭</span>
+                វគ្គសិក្សា
                 </a> 
             </li>
             <!-- <li>
