@@ -49,6 +49,14 @@
             <li id="home_link">
                 <a href="/">Home</a>
             </li>
+            <li>
+               <a 
+               href="https://courses-kh.masayashida.com/"
+               lang="km"
+               >
+                វគ្គសិក្សា <span>🇰🇭</span>
+                </a> 
+            </li>
             <!-- <li>
                 <a href="/" lang="khm">ភាសាខ្មែរ</a>
             </li> -->

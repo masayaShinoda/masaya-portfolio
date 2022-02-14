@@ -5,16 +5,16 @@ html {
   scroll-behavior: smooth;
 }
 
-:lang(khm) 	{
-  font-family: KhmerOSContent-Bold, sans-serif;
-  font-size: 90%;
-  line-height: 1.6;
+:lang(km) 	{
+  font-family: KhmerOSContent-Regular, sans-serif !important;
+  // font-size: 100% !important;
+  // line-height: 1.5 !important;
 }
 
 
 h1, h2 {
   font-family: $head, serif;
-}
+} 
 
 div, span, p, a, ul, ol, small, q, blockquote {
   font-family: $body, serif;

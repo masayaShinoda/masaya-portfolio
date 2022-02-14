@@ -40,10 +40,8 @@ html {
   scroll-behavior: smooth;
 }
 
-:lang(khm) {
-  font-family: KhmerOSContent-Bold, sans-serif;
-  font-size: 90%;
-  line-height: 1.6;
+:lang(km) {
+  font-family: KhmerOSContent-Regular, sans-serif !important;
 }
 
 h1, h2 {
