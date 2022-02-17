@@ -2,17 +2,17 @@
     import SvelteMarkdown from 'svelte-markdown'
     const portfMdWeb =
 `
-- 
+-
 [
 ![screenshot of Good Time Hospitality Group website](/images/1280w/gt-rr-mockup-laptop-phone_result.png)
 Hospitality & Resort Website
 ](https://goodtimehospitality.com/)
-- 
+-
 [
 ![screenshot of Zillion United's corporate website](/images/1280w/z1-corporate_result.png)
 Trading App Corporate Website
 ](https://zillionunited.io)
-- 
+-
 [
 ![screenshot of blog.masayashida.com](/images/1280w/masayas-thoughts_result.png)
 Personal blog website

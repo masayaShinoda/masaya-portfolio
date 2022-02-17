@@ -11,15 +11,15 @@
         max-width: 100%; padding: 0 5%;
         // outline: 1px solid purple; //debug
         .mobileNavBtn {
-            background: $azure_blue; width: 7.5rem; height: 7.5rem;
-            position: fixed; top: 5rem; left: 5vw; border-radius: 100%;
+            background: $azure_blue; width: 6.75rem; height: 6.75rem;
+            position: fixed; top: 2.5rem; left: 5vw; border-radius: 100%;
             display: flex; flex-direction: column; align-items: center; justify-content: center;
             box-shadow: 2px 2px 4px rgba(0,0,0,.25);
             cursor: pointer;
             z-index: 100;
             span {
                 display: flex;
-                width: 4rem; height: .5rem; 
+                width: 3.5rem; height: .5rem; 
                 border-radius: 0 .5rem 0 0;
                 background: $azure_white;
                 margin: .45rem 0; padding: 0;
@@ -54,7 +54,7 @@
                 width: 100%; max-width: 100%;
                 #home_link {order: -3}
                 li {width: 100%;}
-                li a {display: flex; justify-content: center; font-size: 3.2rem; width: 100%; padding: 3.5rem 0; transition: none;}
+                li a {display: flex; justify-content: center; font-size: 2.8rem; width: 100%; padding: 3.5rem 0; transition: none;}
                 li:hover a {background: $azure_blue; color: $azure_white;}
             }
         }

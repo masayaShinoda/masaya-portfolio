@@ -38,7 +38,8 @@
         <span></span>
         <span></span>
     </button>
-    <nav id="nav">
+    <!-- svelte-ignore a11y-no-redundant-roles -->
+    <nav id="nav" role="navigation">
         <ul on:click={handleMobileNav}>
             <li>
                 <a href="/#projects">Projects</a>

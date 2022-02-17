@@ -62,10 +62,10 @@ content text: work sans regular
   }
   .navContainer .mobileNavBtn {
     background: #008BEC;
-    width: 7.5rem;
-    height: 7.5rem;
+    width: 6.75rem;
+    height: 6.75rem;
     position: fixed;
-    top: 5rem;
+    top: 2.5rem;
     left: 5vw;
     border-radius: 100%;
     display: -webkit-box;
@@ -90,7 +90,7 @@ content text: work sans regular
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 4rem;
+    width: 3.5rem;
     height: .5rem;
     border-radius: 0 .5rem 0 0;
     background: #F0FFFF;
@@ -172,7 +172,7 @@ content text: work sans regular
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    font-size: 3.2rem;
+    font-size: 2.8rem;
     width: 100%;
     padding: 3.5rem 0;
     -webkit-transition: none;
