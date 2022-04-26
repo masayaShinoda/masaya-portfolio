@@ -1,9 +1,11 @@
 <script>
+    import AnnouncementBanner from '$lib/announcementBanner.svelte'
+
     let mobileNavOpened = false
     function handleMobileNav() {
         if(mobileNavOpened) {
             document.getElementsByTagName("body")[0].style.height = "auto"
-            document.getElementsByTagName("body")[0].style.overflowY = "initial"            
+            document.getElementsByTagName("body")[0].style.overflowY = "initial"
         } else {
             
             document.getElementsByTagName("body")[0].style.height = "100%"
@@ -15,7 +17,6 @@
         mobileNavOpened = !mobileNavOpened
         document.getElementById("nav").classList.toggle("active")        
         handleMobileNavBtn()
-
 
     }
     function handleMobileNavBtn() {
@@ -64,6 +65,7 @@
         </ul>
     </nav>
 </div>
+<AnnouncementBanner />
 
 <style>
     @import '../../static/styles/nav.module.css';
@@ -75,4 +77,5 @@
     li {
         line-height: 1;
     }
+
 </style>
