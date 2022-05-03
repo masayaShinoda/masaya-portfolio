@@ -21,7 +21,7 @@
         font-size: 1.24rem;
         font-weight: 400;
         text-align: right;
-        color: #666;
+        color: #999;
     }
 
 </style>
